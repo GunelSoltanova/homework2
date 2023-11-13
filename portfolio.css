@@ -1,0 +1,173 @@
+#header{
+    display: flex;
+    
+        position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: white;
+    border-bottom: 1px solid gray;
+    
+    
+}
+.yourname{
+    background-color: rgb(116, 192, 192);
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    height: 80px;
+    width: 220px;
+    padding-top: 20px;
+padding-left: 20px;
+
+margin-left: 200px;
+
+text-decoration: none;
+}
+.name{
+    text-decoration: none;
+    color: white;
+}
+nav{
+    color: gray;
+    font: inherit;
+}
+.link{
+    margin-left: 400px;
+
+    padding: 25px;
+   
+    
+}
+ul{
+    display: flex;
+    font-size: 25px; 
+
+}
+.about, .portfolio, .contact{
+    color: gray;
+    margin-right: 15px;
+        text-decoration: none;
+                border-right: 1px solid grey;
+        padding: 10px;
+           }
+           main{
+            background: url(./backgraund.jpg);
+            display: flex;
+            position: relative;
+            top: 100px;
+            height: 900px;
+            
+            
+                               }  
+section{
+    background-color: white;
+    width: 600px;
+    margin-top: 30px;
+    margin-left: 200px;
+    margin-bottom: 10px;
+    height: 800px;
+    margin-right: 20px;
+}  
+.baslig{
+    color: rgb(116, 192, 192);
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 15px;
+}
+.picture1{
+    float: left;
+    margin-right: 40px;
+    position: relative;
+    margin-left: 30px;
+    
+}
+.p1{
+    font-size: 25px;
+    background-color:rgb(116, 192, 192);
+    padding: 10px;
+    text-align: center;
+    color: white;
+    position: relative;
+    width: 230px;
+    bottom: 55px;
+       
+}  
+.picture2{
+    position: relative;
+}
+.p2{
+    float: right;
+    font-size: 25px;
+    background-color:rgb(116, 192, 192);
+    padding: 10px;
+    text-align: center;
+    color: white;
+    position: relative;
+   right: 30px;
+   bottom: 55px;
+   width: 230px;
+}
+.picture3, .picture5{
+    float: left;
+    margin-right: 40px;
+    margin-left: 30px;
+    }
+    .p3, .p5{
+        font-size: 25px;
+        background-color:rgb(116, 192, 192);
+        padding: 10px;
+        text-align: center;
+        color: white;
+        position: relative;
+              bottom: 55px;
+       width: 230px;
+
+    }
+    .p4{ 
+        font-size: 25px;
+        background-color:rgb(116, 192, 192);
+        padding: 10px;
+        text-align: center;
+        color: white;
+        position: relative;
+              bottom: 55px;
+       width: 230px;
+       float: right;
+       right: 30px;
+
+    }
+    .withme{
+        width: 250px;
+        height: 200px;
+        margin-right: 100px;
+        position: relative;
+        float: right;
+        right: 120px;
+    }
+    .sosial{
+        float: left;
+        margin-left: 20px;
+        margin-bottom: 20px;}
+    .connect{
+        color: rgb(116, 192, 192);
+        font-size: 25px;
+        font-weight: bold;
+        padding: 10px;
+    }
+    .connect2{
+        color: grey;
+            width: 200px;
+    }
+    .footer{
+        border-top: 8px solid rgb(116, 192, 192);
+        background-color: grey;
+        height: 50px;
+        text-align: center;
+        color: white;
+        padding: 20px;
+        position: relative;
+        top: 100px;
+    }
+    
+   

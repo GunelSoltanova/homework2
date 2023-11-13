@@ -1,0 +1,134 @@
+header{
+    display: flex;
+        position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    background-color: white;
+    border-bottom: 1px solid gray;
+    z-index: 999;
+}
+.yourname{
+    background-color: rgb(116, 192, 192);
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    height: 80px;
+    width: 220px;
+    padding-top: 20px;
+padding-left: 20px;
+display: block;
+position: relative;
+left: 200px;
+text-decoration: none;
+}
+.name{
+    text-decoration: none;
+    color: white;
+}
+nav{
+    color: gray;
+    font: inherit;
+}
+.link{
+    display: block;
+    position: relative;
+    left: 600px;  
+    padding: 25px;
+   
+    
+}
+ul{
+    display: flex;
+    font-size: 25px; 
+
+}
+.about, .portfolio, .contact{
+    color: gray;
+    margin-right: 15px;
+        text-decoration: none;
+                border-right: 1px solid grey;
+        padding: 10px;
+           }
+        
+           main{
+            background: url(./backgraund.jpg);
+            display: flex;
+            position: relative;
+            top: 100px;
+            height: 650px;
+            
+                               }  
+    
+    .input{
+        width: 600px;
+        background-color: white;
+        margin-left: 200px;
+        margin-top: 40px;
+        height: 550px;
+        margin-bottom: 60px;
+            
+    }
+    .baslig1{
+        color: rgb(116, 192, 192);
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 15px;
+
+
+    }
+    .form{
+        display: contents;
+        color: gray;
+    }
+    .name1, .email1, .message1, .submit{
+        margin-left: 30px;
+        margin-bottom: 15px;
+    }
+    .name, .email, .message{
+        width: 500px;
+        padding: 10px;
+        margin: auto;
+    }
+    .submit{
+        background-color: rgb(116, 192, 192);
+        color: white;
+        font-size: 20px;
+        border: none;
+        padding: 20px;
+    }
+.withme{
+    width: 250px;
+    height: 200px;
+    margin-right: 100px;
+    position: relative;
+    float: right;
+    left: 100px;
+    background-color: white;
+    margin-top: 40px;
+}
+img{
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 20px;}
+.connect{
+    color: rgb(116, 192, 192);
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px;
+}
+.connect2{
+    color: grey;
+        width: 200px;
+}
+.footer{
+    border-top: 8px solid rgb(116, 192, 192);
+    background-color: grey;
+    height: 50px;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    position: relative;
+    top: 100px;
+}
+
